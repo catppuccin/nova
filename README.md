@@ -1,33 +1,18 @@
-<!--
-👋 Hello! As Nova users browse the extensions library, a good README can help them understand what your extension does, how it works, and what setup or configuration it may require.
+<h3 align="center">
+  <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/logos/exports/1544x1544_circle.png" width="100" alt="Logo"/><br/>
+  <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
+  Catppuccin for <a href="https://nova.com/panic">Nova</a>
+  <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
+</h3>
 
-Not every extension will need every item described below. Use your best judgement when deciding which parts to keep to provide the best experience for your new users.
+<p align="center">
+    <a href="https://github.com/daveyholler/Catppuccin-Nova/stargazers"><img src="https://img.shields.io/github/stars/daveyholler/Catppuccin-Nova?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
+    <a href="https://github.com/daveyholler/Catppuccin-Nova/issues"><img src="https://img.shields.io/github/issues/daveyholler/Catppuccin-Nova?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
+    <a href="https://github.com/daveyholler/Catppuccin-Nova/contributors"><img src="https://img.shields.io/github/contributors/daveyholler/Catppuccin-Nova?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
+</p>
 
-💡 Quick Tip! As you edit this README template, you can preview your changes by selecting **Extensions → Activate Project as Extension**, opening the Extension Library, and selecting "Catppuccin" in the sidebar.
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/739960/194110877-ff2f62f0-56ba-4c82-8301-6c0a43a0bef7.png" width="100%" />
+</div>
 
-Let's get started!
--->
-
-<!--
-🎈 To give users an idea of what your theme looks like, it's a great idea to show big, beautiful screenshots of your theme in action:
--->
-
-**Catppuccin** provides a fun, bright palette:
-
-![](https://previews.dropbox.com/p/thumb/ABrTVUzis9-j7hvebhffnz20J5M9adGHBrGEETvS5lFKuO_qdXTM39Cxg4PoBl8U2ej7EeVcXMCYrVRFsT68UwEEVePKE15i1nWcs6lVd9cnPbyZiIWLwDumyW0lBFCKilJPidvia6oK7EhkjLqe7VmknYrhvLSKG5XovUG8N0C9UH1gjx3acNrJ4vzdEej3zmuhIMlQqcnwsT77DnXO0TNYNomKtZmoLg-3TQqPfjxG921zZndeu-hSmG9phhkyVVdfZxmd-16c9o8CA_eniCRQVW640glwElF57gJIEB5SMBtdEXAbndt4G5X3-6H0vNex6_z9LGilmtbzy-FrXq-06AEB03Qf-4ep47W6O0ei69MZztL3u52A6AMId-sbirU/p.png)
-
-<!--
-🎈 If your extension provides multiple variations, don't forget to show those too!
--->
-
-Catppuccin also offers a lighter alternative:
-
-![](https://nova.app/images/en/light/editor.png)
-
-## Acknowledgements
-
-<!--
-🎈 If your theme is based on existing work by someone else, consider crediting the original author
--->
-
-Catppuccin is based on _Original Catppuccin_ by [Lauren Ipsum](https://en.wikipedia.org/wiki/Lorem_ipsum).
+Catppuccin is a community-driven pastel theme that aims to be the middle ground between low and high contrast themes. It consists of 4 soothing warm palettes with 26 eye-candy colors each, perfect for coding, designing, and much more!
