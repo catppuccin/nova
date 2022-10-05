@@ -17,12 +17,27 @@
 
 [Catppuccin](https://github.com/catppuccin/catppuccin) is a community-driven pastel theme that aims to be the middle ground between low and high contrast themes. It consists of 4 soothing warm palettes with 26 eye-candy colors each, perfect for coding, designing, and much more!
 
-<div align="center">
-  <h3>Catppuccin in all your favorite places</h3>
-</div>
+## Usage
 
-- [Alfred](https://github.com/catppuccin/alfred)
-- [Firefox](https://github.com/catppuccin/firefox)
-- [Telegram](https://github.com/catppuccin/telegram)
-- [iTerm](https://github.com/catppuccin/iterm)
-- And [many, many more](https://github.com/catppuccin/catppuccin#-ports-and-more)
+1. Search "Catppuccin" in Nova extensions
+2. Install the extension
+3. Choose your favorite flavor from Nova's theme settings
+4. Enjoy the soothing colors
+
+## 💝 Thanks to
+
+- [daveyholler](https://github.com/daveyholler)
+
+&nbsp;
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/footers/gray0_ctp_on_line.svg?sanitize=true" />
+</p>
+
+<p align="center">
+  Copyright &copy; 2021-present <a href="https://github.com/catppuccin" target="_blank">Catppuccin Org</a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/catppuccin/catppuccin/blob/main/LICENSE"><img src="https://img.shields.io/static/v1.svg?style=for-the-badge&label=License&message=MIT&logoColor=d9e0ee&colorA=363a4f&colorB=b7bdf8"/></a>
+</p>
