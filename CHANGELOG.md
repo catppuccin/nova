@@ -22,3 +22,7 @@ Initial release
 ## Version 1.2.3
 
 - README updates
+
+## Version 1.3
+
+- Fixes input border colors

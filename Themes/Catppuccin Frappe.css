@@ -68,11 +68,11 @@ meta.button.disabled {
 
 meta.textfield {
   background-color: hsl(231, 19%, 20%);
-  border-color: hsl(227, 44%, 80%);
+  border-color: hsl(230, 16%, 30%);
 }
 meta.textfield.highlighted {
   background-color: hsl(231, 19%, 20%);
-  border-color: hsl(227, 44%, 80%);
+  border-color: hsl(227, 15%, 37%);
 }
 
 /*
@@ -96,11 +96,11 @@ meta.document.button.highlighted {
 
 meta.document.textfield {
   background-color: hsl(231, 19%, 20%);
-  border-color: hsl(227, 44%, 80%);
+  border-color: hsl(230, 16%, 30%);
 }
 meta.document.textfield.highlighted {
   background-color: hsl(231, 19%, 20%);
-  border-color: hsl(227, 44%, 80%);
+  border-color: hsl(227, 15%, 37%);
 }
 
 /* Text */
