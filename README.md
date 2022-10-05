@@ -12,7 +12,17 @@
 </p>
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/739960/194110877-ff2f62f0-56ba-4c82-8301-6c0a43a0bef7.png" width="100%" />
+  <img src="https://user-images.githubusercontent.com/739960/194122436-6a0c05ad-19b2-49cb-9fd3-6f5944e42257.png" width="100%" />
 </div>
 
-Catppuccin is a community-driven pastel theme that aims to be the middle ground between low and high contrast themes. It consists of 4 soothing warm palettes with 26 eye-candy colors each, perfect for coding, designing, and much more!
+[Catppuccin](https://github.com/catppuccin/catppuccin) is a community-driven pastel theme that aims to be the middle ground between low and high contrast themes. It consists of 4 soothing warm palettes with 26 eye-candy colors each, perfect for coding, designing, and much more!
+
+<div align="center">
+  <h3>Catppuccin in all your favorite places</h3>
+</div>
+
+- [Alfred](https://github.com/catppuccin/alfred)
+- [Firefox](https://github.com/catppuccin/firefox)
+- [Telegram](https://github.com/catppuccin/telegram)
+- [iTerm](https://github.com/catppuccin/iterm)
+- And [many, many more](https://github.com/catppuccin/catppuccin#-ports-and-more)
