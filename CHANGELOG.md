@@ -10,3 +10,11 @@ Initial release
 
 - README updates
 - Links to the official Catppuccin project
+
+## Version 1.2.1
+
+- README updates
+
+## Version 1.2.2
+
+- Repo moved to the official Catppucin project
