@@ -4,5 +4,8 @@
   "organization": "Holler",
   "description": "Catppuccin for Nova",
   "version": "1.0",
-  "categories": ["themes"]
+  "categories": ["themes"],
+  "bugs": "https://github.com/daveyholler/Catppuccin-Nova/issues",
+  "homepage": "https://daveyholler.com",
+  "repository": "https://github.com/daveyholler/Catppuccin-Nova"
 }
