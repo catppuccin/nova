@@ -18,3 +18,7 @@ Initial release
 ## Version 1.2.2
 
 - Repo moved to the official Catppucin project
+
+## Version 1.2.3
+
+- README updates

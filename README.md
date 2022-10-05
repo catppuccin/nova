@@ -6,9 +6,9 @@
 </h3>
 
 <p align="center">
-    <a href="https://github.com/daveyholler/Catppuccin-Nova/stargazers"><img src="https://img.shields.io/github/stars/daveyholler/Catppuccin-Nova?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
-    <a href="https://github.com/daveyholler/Catppuccin-Nova/issues"><img src="https://img.shields.io/github/issues/daveyholler/Catppuccin-Nova?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
-    <a href="https://github.com/daveyholler/Catppuccin-Nova/contributors"><img src="https://img.shields.io/github/contributors/daveyholler/Catppuccin-Nova?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
+    <a href="https://github.com/catppuccin/nova/stargazers"><img src="https://img.shields.io/github/stars/catppuccin/nova?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
+    <a href="https://github.com/catppuccin/nova/issues"><img src="https://img.shields.io/github/issues/catppuccin/nova?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
+    <a href="https://github.com/catppuccin/nova/contributors"><img src="https://img.shields.io/github/contributors/catppuccin/nova?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
 </p>
 
 <div align="center">
