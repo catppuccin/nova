@@ -1,0 +1,431 @@
+/* Mocha */
+:root {
+  --rosewater: hsla(10, 56%, 91%, 1);
+  --flamingo: hsla(0, 59%, 88%, 1);
+  --pink: hsla(316, 72%, 86%, 1);
+  --mauve: hsla(267, 84%, 81%, 1);
+  --red: hsla(343, 81%, 75%, 1);
+  --maroon: hsla(350, 65%, 77%, 1);
+  --peach: hsla(23, 92%, 75%, 1);
+  --yellow: hsla(41, 86%, 83%, 1);
+  --green: hsla(115, 54%, 76%, 1);
+  --teal: hsla(170, 57%, 73%, 1);
+  --sky: hsla(189, 71%, 73%, 1);
+  --sapphire: hsla(199, 76%, 69%, 1);
+  --blue: hsla(217, 92%, 76%, 1);
+  --lavender: hsla(232, 97%, 85%, 1);
+  --text: hsla(226, 64%, 88%, 1);
+  --subtext1: hsla(227, 35%, 80%, 1);
+  --subtext0: hsla(228, 24%, 72%, 1);
+  --overlay2: hsla(228, 17%, 64%, 1);
+  --overlay1: hsla(230, 13%, 55%, 1);
+  --overlay0: hsla(231, 11%, 47%, 1);
+  --surface2: hsla(233, 12%, 39%, 1);
+  --surface1: hsla(234, 13%, 31%, 1);
+  --surface0: hsla(237, 16%, 23%, 1);
+  --base: hsla(240, 21%, 15%, 1);
+  --mantle: hsla(240, 21%, 12%, 1);
+  --crust: hsla(240, 23%, 9%, 1);
+}
+
+meta {
+  -theme-interface-style: dark;
+  -theme-accent-color: hsl(0, 59%, 88%);
+}
+
+/*
+ * Window styles
+ */
+meta.window {
+  background-color: hsla(240, 21%, 15%, 1);
+  border-color: hsla(237, 16%, 23%, 1);
+}
+meta.titlebar {
+  color: hsla(228, 24%, 72%, 1);
+  border-color: hsla(237, 16%, 23%, 1);
+}
+meta.titlebar.inactive {
+}
+
+meta.button {
+  background: linear-gradient(hsla(234, 13%, 31%, 1), hsla(237, 16%, 23%, 1));
+  border: linear-gradient(hsla(234, 13%, 31%, 1), hsla(237, 16%, 23%, 1));
+  color: hsla(10, 56%, 91%, 1);
+}
+meta.button.highlighted {
+  background: linear-gradient(hsla(233, 12%, 39%, 1), hsla(234, 13%, 31%, 1));
+  border: linear-gradient(hsla(233, 12%, 39%, 1), hsla(234, 13%, 31%, 1));
+  color: hsla(350, 65%, 77%, 1);
+}
+meta.button.selected {
+  color: hsla(350, 65%, 77%, 1);
+}
+meta.button.highlighted.selected {
+  color: hsla(240, 21%, 12%, 1);
+}
+meta.button.disabled {
+}
+
+meta.textfield {
+  background-color: hsla(240, 21%, 12%, 1);
+  border-color: hsla(227, 35%, 80%, 1);
+}
+meta.textfield.highlighted {
+  background-color: hsla(240, 21%, 12%, 1);
+  border-color: hsla(227, 35%, 80%, 1);
+}
+
+/*
+ * Document styles
+ */
+meta.document {
+  background-color: hsla(240, 21%, 15%, 1);
+  border-color: hsla(228, 17%, 64%, 1);
+}
+
+meta.document.button {
+  background: linear-gradient(hsla(10, 56%, 91%, 1), hsla(0, 59%, 88%, 1));
+  border: linear-gradient(hsla(0, 59%, 88%, 1), hsla(10, 56%, 91%, 1));
+}
+meta.document.button.disabled {
+  background: linear-gradient(hsla(228, 17%, 64%, 1), hsla(228, 17%, 64%, 1));
+}
+meta.document.button.highlighted {
+  background: linear-gradient(hsla(23, 92%, 75%, 1), hsla(350, 65%, 77%, 1));
+}
+
+meta.document.textfield {
+  background-color: hsla(240, 21%, 12%, 1);
+  border-color: hsla(227, 35%, 80%, 1);
+}
+meta.document.textfield.highlighted {
+  background-color: hsla(240, 21%, 12%, 1);
+  border-color: hsla(227, 35%, 80%, 1);
+}
+
+/* Text */
+meta.text {
+  color: hsla(226, 64%, 88%, 1);
+}
+meta.text.invisible {
+  color: hsla(228, 17%, 64%, 1);
+}
+meta.text.selected {
+}
+
+/* Cursor */
+meta.cursor {
+  background-color: hsla(240, 21%, 12%, 1);
+}
+
+/* Indentation Guides */
+meta.indentguide {
+  border-color: hsla(228, 17%, 64%, 1);
+}
+
+/* Gutter */
+meta.gutter {
+  color: hsla(228, 17%, 64%, 1);
+}
+meta.gutter.selected {
+  background-color: hsla(234, 13%, 31%, 1);
+  color: hsla(226, 64%, 88%, 1);
+}
+
+/*
+ * Syntax styles
+ */
+comment {
+  color: hsla(234, 13%, 31%, 1);
+}
+processing {
+  color: hsla(228, 17%, 64%, 1);
+}
+declaration {
+  color: hsla(170, 57%, 73%, 1);
+}
+bracket {
+  color: hsla(115, 54%, 76%, 1);
+}
+operator {
+  color: hsla(199, 76%, 69%, 1);
+}
+invalid {
+  background-color: hsla(23, 92%, 75%, 1);
+  color: hsla(237, 16%, 23%, 1);
+}
+link {
+  color: hsla(217, 92%, 76%, 1);
+}
+
+/* Keywords */
+keyword {
+  color: hsla(343, 81%, 75%, 1);
+}
+keyword.modifier {
+  font-style: italic;
+  color: hsla(170, 57%, 73%, 1);
+}
+keyword.condition {
+  color: hsla(217, 92%, 76%, 1);
+}
+keyword.construct {
+  color: hsla(217, 92%, 76%, 1);
+}
+keyword.statement {
+  color: hsla(217, 92%, 76%, 1);
+}
+keyword.self {
+  color: hsla(217, 92%, 76%, 1);
+}
+keyword.self.prefix {
+  color: hsla(189, 71%, 73%, 1);
+}
+
+/* Values */
+value.boolean {
+  color: hsla(217, 92%, 76%, 1);
+}
+value.null {
+  color: hsla(217, 92%, 76%, 1);
+}
+value.number {
+  color: hsla(10, 56%, 91%, 1);
+}
+value.entity {
+  color: hsla(217, 92%, 76%, 1);
+}
+value.symbol {
+  color: hsla(217, 92%, 76%, 1);
+}
+
+/* Identifiers */
+identifier.type {
+  color: hsla(23, 92%, 75%, 1);
+}
+identifier.constant,
+identifier.global,
+identifier.variable {
+  color: hsla(232, 97%, 85%, 1);
+}
+identifier.constant.prefix,
+identifier.global.prefix,
+identifier.variable.prefix {
+  color: hsla(199, 76%, 69%, 1);
+}
+identifier.property {
+  color: hsla(10, 56%, 91%, 1);
+}
+identifier.property.prefix {
+  color: hsla(237, 16%, 23%, 1);
+}
+identifier.decorator,
+identifier.function,
+identifier.method {
+  color: hsla(189, 71%, 73%, 1);
+}
+identifier.key {
+  color: hsla(232, 97%, 85%, 1);
+}
+identifier.argument {
+  color: hsla(232, 97%, 85%, 1);
+}
+identifier.argument.prefix {
+  color: hsla(237, 16%, 23%, 1);
+}
+
+/* Strings */
+string {
+  color: hsla(115, 54%, 76%, 1);
+}
+string.delimiter {
+  color: hsla(343, 81%, 75%, 1);
+}
+string.escape {
+  color: hsla(10, 56%, 91%, 1);
+}
+string.key {
+  color: hsla(232, 97%, 85%, 1);
+}
+string-keyword {
+  color: hsla(237, 16%, 23%, 1);
+}
+string-template {
+  color: hsla(41, 86%, 83%, 1);
+}
+regex {
+  color: hsla(41, 86%, 83%, 1);
+}
+regex.escape {
+  color: hsla(41, 86%, 83%, 1);
+}
+cdata {
+  color: hsla(217, 92%, 76%, 1);
+}
+
+/* Markup */
+markup.heading {
+  color: hsla(23, 92%, 75%, 1);
+}
+markup.line {
+  color: hsla(232, 97%, 85%, 1);
+}
+markup.bold {
+  color: hsla(199, 76%, 69%, 1);
+  font-weight: bold;
+}
+markup.italic {
+  color: hsla(232, 97%, 85%, 1);
+  font-style: italic;
+}
+markup.strikethrough {
+  color: hsla(228, 17%, 64%, 1);
+}
+markup.list.item {
+  color: hsla(23, 92%, 75%, 1);
+}
+markup.code {
+  background-color: hsla(240, 21%, 12%, 1);
+}
+markup.link {
+  color: hsla(217, 92%, 76%, 1);
+}
+
+/* Types */
+definition.class.name,
+definition.type.name,
+definition.package.name,
+definition.enum.name,
+definition.union.name,
+definition.struct.name {
+  color: hsla(170, 57%, 73%, 1);
+}
+
+/* Members */
+definition.property.name {
+  color: hsla(170, 57%, 73%, 1);
+}
+definition.function.name,
+definition.method.name {
+  color: hsla(170, 57%, 73%, 1);
+}
+
+/* Tags */
+tag {
+  color: hsla(170, 57%, 73%, 1);
+}
+tag.name {
+  color: hsla(189, 71%, 73%, 1);
+}
+tag.framework {
+  color: hsla(267, 84%, 81%, 1);
+}
+tag.framework.name {
+  color: hsla(267, 84%, 81%, 1);
+}
+tag.attribute.name {
+  color: hsla(232, 97%, 85%, 1);
+}
+tag.framework.attribute.name {
+  color: hsla(316, 72%, 86%, 1);
+}
+tag.attribute.value {
+  color: hsla(0, 59%, 88%, 1);
+}
+tag.attribute.value.delimiter {
+  color: hsla(350, 65%, 77%, 1);
+}
+tag.attribute.operator {
+  color: hsla(230, 13%, 55%, 1);
+}
+tag.attribute.value.link {
+  color: hsla(217, 92%, 76%, 1);
+}
+
+/* Styles */
+style.at {
+  color: hsla(41, 86%, 83%, 1);
+  font-weight: bold;
+}
+style.selector.element {
+  font-weight: bold;
+}
+style.selector.identifier.id {
+  color: hsla(41, 86%, 83%, 1);
+}
+style.selector.identifier.class {
+  color: hsla(232, 97%, 85%, 1);
+}
+style.selector.pseudoclass {
+  color: hsla(232, 97%, 85%, 1);
+}
+style.selector.pseudoelement {
+  color: hsla(41, 86%, 83%, 1);
+}
+style.attribute.name {
+  color: hsla(170, 57%, 73%, 1);
+}
+style.value.number {
+  color: hsla(10, 56%, 91%, 1);
+}
+style.value.color.hex {
+  color: hsla(316, 72%, 86%, 1);
+}
+style.value.keyword {
+  color: hsla(217, 92%, 76%, 1);
+}
+style.value.color.named {
+  color: hsla(217, 92%, 76%, 1);
+}
+style.value.identifier.function {
+  color: hsla(189, 71%, 73%, 1);
+}
+
+terminal.black {
+  color: #45475a;
+}
+terminal.blue {
+  color: #89b4fa;
+}
+terminal.red {
+  color: #f38ba8;
+}
+terminal.green {
+  color: #a6e3a1;
+}
+terminal.yellow {
+  color: #f9e2af;
+}
+terminal.magenta {
+  color: #f5c2e7;
+}
+terminal.cyan {
+  color: #94e2d5;
+}
+terminal.white {
+  color: #bac2de;
+}
+terminal.bright-black {
+  color: #585b70;
+}
+terminal.bright-white {
+  color: #a6adc8;
+}
+terminal.bright-blue {
+  color: #89b4fa;
+}
+terminal.bright-red {
+  color: #f38ba8;
+}
+terminal.bright-green {
+  color: #a6e3a1;
+}
+terminal.bright-yellow {
+  color: #f9e2af;
+}
+terminal.bright-magenta {
+  color: #f5c2e7;
+}
+terminal.bright-cyan {
+  color: #94e2d5;
+}

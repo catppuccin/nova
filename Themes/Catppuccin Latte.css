@@ -1,0 +1,431 @@
+/* Latte */
+:root {
+  --rosewater: hsl(11, 59%, 67%);
+  --flamingo: hsl(0, 60%, 67%);
+  --pink: hsl(316, 73%, 69%);
+  --mauve: hsl(266, 85%, 58%);
+  --red: hsl(347, 87%, 44%);
+  --maroon: hsl(355, 76%, 59%);
+  --peach: hsl(22, 99%, 52%);
+  --yellow: hsl(35, 77%, 49%);
+  --green: hsl(109, 58%, 40%);
+  --teal: hsl(183, 74%, 35%);
+  --sky: hsl(197, 97%, 46%);
+  --sapphire: hsl(189, 70%, 42%);
+  --blue: hsl(220, 91%, 54%);
+  --lavender: hsl(231, 97%, 72%);
+  --text: hsl(234, 16%, 35%);
+  --subtext1: hsl(233, 13%, 41%);
+  --subtext0: hsl(233, 10%, 47%);
+  --overlay2: hsl(232, 10%, 53%);
+  --overlay1: hsl(231, 10%, 59%);
+  --overlay0: hsl(228, 11%, 65%);
+  --surface2: hsl(227, 12%, 71%);
+  --surface1: hsl(225, 14%, 77%);
+  --surface0: hsl(223, 16%, 83%);
+  --base: hsl(220, 23%, 95%);
+  --mantle: hsl(220, 22%, 92%);
+  --crust: hsl(220, 21%, 89%);
+}
+
+meta {
+  -theme-interface-style: light;
+  -theme-accent-color: hsl(0, 59%, 88%);
+}
+
+/*
+ * Window styles
+ */
+meta.window {
+  background-color: hsl(220, 23%, 95%);
+  border-color: hsl(223, 16%, 83%);
+}
+meta.titlebar {
+  color: hsl(233, 10%, 47%);
+  border-color: hsl(223, 16%, 83%);
+}
+meta.titlebar.inactive {
+}
+
+meta.button {
+  background: linear-gradient(hsl(225, 14%, 77%), hsl(223, 16%, 83%));
+  border: linear-gradient(hsl(225, 14%, 77%), hsl(223, 16%, 83%);
+  color: hsl(223, 16%, 83%);
+}
+meta.button.highlighted {
+  background: linear-gradient(hsl(227, 12%, 71%), hsl(225, 14%, 77%));
+  border: linear-gradient(hsl(227, 12%, 71%), hsl(223, 16%, 83%);
+  color: hsl(223, 16%, 83%);
+}
+meta.button.selected {
+  color: hsl(355, 76%, 59%);
+}
+meta.button.highlighted.selected {
+  color: hsl(220, 22%, 92%);
+}
+meta.button.disabled {
+}
+
+meta.textfield {
+  background-color: hsl(220, 22%, 92%);
+  border-color: hsl(233, 13%, 41%);
+}
+meta.textfield.highlighted {
+  background-color: hsl(220, 22%, 92%);
+  border-color: hsl(233, 13%, 41%);
+}
+
+/*
+ * Document styles
+ */
+meta.document {
+  background-color: hsl(220, 23%, 95%);
+  border-color: hsl(232, 10%, 53%);
+}
+
+meta.document.button {
+  background: linear-gradient(hsl(11, 59%, 67%), hsl(0, 60%, 67%));
+  border: linear-gradient(hsl(0, 60%, 67%), hsl(11, 59%, 67%));
+}
+meta.document.button.disabled {
+  background: linear-gradient(hsl(232, 10%, 53%), hsl(232, 10%, 53%));
+}
+meta.document.button.highlighted {
+  background: linear-gradient(hsl(22, 99%, 52%), hsl(355, 76%, 59%));
+}
+
+meta.document.textfield {
+  background-color: hsl(220, 22%, 92%);
+  border-color: hsl(233, 13%, 41%);
+}
+meta.document.textfield.highlighted {
+  background-color: hsl(220, 22%, 92%);
+  border-color: hsl(233, 13%, 41%);
+}
+
+/* Text */
+meta.text {
+  color: hsl(234, 16%, 35%);
+}
+meta.text.invisible {
+  color: hsl(232, 10%, 53%);
+}
+meta.text.selected {
+}
+
+/* Cursor */
+meta.cursor {
+  background-color: hsl(220, 22%, 92%);
+}
+
+/* Indentation Guides */
+meta.indentguide {
+  border-color: hsl(232, 10%, 53%);
+}
+
+/* Gutter */
+meta.gutter {
+  color: hsl(232, 10%, 53%);
+}
+meta.gutter.selected {
+  background-color: hsl(225, 14%, 77%);
+  color: hsl(223, 16%, 83%);
+}
+
+/*
+ * Syntax styles
+ */
+comment {
+  color: hsl(225, 14%, 77%);
+}
+processing {
+  color: hsl(232, 10%, 53%);
+}
+declaration {
+  color: hsl(183, 74%, 35%);
+}
+bracket {
+  color: hsl(109, 58%, 40%);
+}
+operator {
+  color: hsl(189, 70%, 42%);
+}
+invalid {
+  background-color: hsl(22, 99%, 52%);
+  color: hsl(223, 16%, 83%);
+}
+link {
+  color: hsl(220, 91%, 54%);
+}
+
+/* Keywords */
+keyword {
+  color: hsl(347, 87%, 44%);
+}
+keyword.modifier {
+  font-style: italic;
+  color: hsl(183, 74%, 35%);
+}
+keyword.condition {
+  color: hsl(220, 91%, 54%);
+}
+keyword.construct {
+  color: hsl(220, 91%, 54%);
+}
+keyword.statement {
+  color: hsl(220, 91%, 54%);
+}
+keyword.self {
+  color: hsl(220, 91%, 54%);
+}
+keyword.self.prefix {
+  color: hsl(197, 97%, 46%);
+}
+
+/* Values */
+value.boolean {
+  color: hsl(220, 91%, 54%);
+}
+value.null {
+  color: hsl(220, 91%, 54%);
+}
+value.number {
+  color: hsl(11, 59%, 67%);
+}
+value.entity {
+  color: hsl(220, 91%, 54%);
+}
+value.symbol {
+  color: hsl(220, 91%, 54%);
+}
+
+/* Identifiers */
+identifier.type {
+  color: hsl(22, 99%, 52%);
+}
+identifier.constant,
+identifier.global,
+identifier.variable {
+  color: hsl(231, 97%, 72%);
+}
+identifier.constant.prefix,
+identifier.global.prefix,
+identifier.variable.prefix {
+  color: hsl(189, 70%, 42%);
+}
+identifier.property {
+  color: hsl(11, 59%, 67%);
+}
+identifier.property.prefix {
+  color: hsl(223, 16%, 83%);
+}
+identifier.decorator,
+identifier.function,
+identifier.method {
+  color: hsl(197, 97%, 46%);
+}
+identifier.key {
+  color: hsl(231, 97%, 72%);
+}
+identifier.argument {
+  color: hsl(231, 97%, 72%);
+}
+identifier.argument.prefix {
+  color: hsl(223, 16%, 83%);
+}
+
+/* Strings */
+string {
+  color: hsl(109, 58%, 40%);
+}
+string.delimiter {
+  color: hsl(347, 87%, 44%);
+}
+string.escape {
+  color: hsl(11, 59%, 67%);
+}
+string.key {
+  color: hsl(231, 97%, 72%);
+}
+string-keyword {
+  color: hsl(223, 16%, 83%);
+}
+string-template {
+  color: hsl(35, 77%, 49%);
+}
+regex {
+  color: hsl(35, 77%, 49%);
+}
+regex.escape {
+  color: hsl(35, 77%, 49%);
+}
+cdata {
+  color: hsl(220, 91%, 54%);
+}
+
+/* Markup */
+markup.heading {
+  color: hsl(22, 99%, 52%);
+}
+markup.line {
+  color: hsl(231, 97%, 72%);
+}
+markup.bold {
+  color: hsl(189, 70%, 42%);
+  font-weight: bold;
+}
+markup.italic {
+  color: hsl(231, 97%, 72%);
+  font-style: italic;
+}
+markup.strikethrough {
+  color: hsl(232, 10%, 53%);
+}
+markup.list.item {
+  color: hsl(22, 99%, 52%);
+}
+markup.code {
+  background-color: hsl(220, 22%, 92%);
+}
+markup.link {
+  color: hsl(220, 91%, 54%);
+}
+
+/* Types */
+definition.class.name,
+definition.type.name,
+definition.package.name,
+definition.enum.name,
+definition.union.name,
+definition.struct.name {
+  color: hsl(183, 74%, 35%);
+}
+
+/* Members */
+definition.property.name {
+  color: hsl(183, 74%, 35%);
+}
+definition.function.name,
+definition.method.name {
+  color: hsl(183, 74%, 35%);
+}
+
+/* Tags */
+tag {
+  color: hsl(183, 74%, 35%);
+}
+tag.name {
+  color: hsl(197, 97%, 46%);
+}
+tag.framework {
+  color: hsl(266, 85%, 58%);
+}
+tag.framework.name {
+  color: hsl(266, 85%, 58%);
+}
+tag.attribute.name {
+  color: hsl(231, 97%, 72%);
+}
+tag.framework.attribute.name {
+  color: hsl(316, 73%, 69%);
+}
+tag.attribute.value {
+  color: hsl(0, 60%, 67%);
+}
+tag.attribute.value.delimiter {
+  color: hsl(355, 76%, 59%);
+}
+tag.attribute.operator {
+  color: hsl(231, 10%, 59%);
+}
+tag.attribute.value.link {
+  color: hsl(220, 91%, 54%);
+}
+
+/* Styles */
+style.at {
+  color: hsl(35, 77%, 49%);
+  font-weight: bold;
+}
+style.selector.element {
+  font-weight: bold;
+}
+style.selector.identifier.id {
+  color: hsl(35, 77%, 49%);
+}
+style.selector.identifier.class {
+  color: hsl(231, 97%, 72%);
+}
+style.selector.pseudoclass {
+  color: hsl(231, 97%, 72%);
+}
+style.selector.pseudoelement {
+  color: hsl(35, 77%, 49%);
+}
+style.attribute.name {
+  color: hsl(183, 74%, 35%);
+}
+style.value.number {
+  color: hsl(11, 59%, 67%);
+}
+style.value.color.hex {
+  color: hsl(316, 73%, 69%);
+}
+style.value.keyword {
+  color: hsl(220, 91%, 54%);
+}
+style.value.color.named {
+  color: hsl(220, 91%, 54%);
+}
+style.value.identifier.function {
+  color: hsl(197, 97%, 46%);
+}
+
+terminal.black {
+  color: #5c5f77;
+}
+terminal.blue {
+  color: #1e66f5;
+}
+terminal.red {
+  color: #d20f39;
+}
+terminal.green {
+  color: #40a02b;
+}
+terminal.yellow {
+  color: #df8e1d;
+}
+terminal.magenta {
+  color: #ea76cb;
+}
+terminal.cyan {
+  color: #179299;
+}
+terminal.white {
+  color: #acb0be;
+}
+terminal.bright-black {
+  color: #6c6f85;
+}
+terminal.bright-white {
+  color: #bcc0cc;
+}
+terminal.bright-blue {
+  color: #1e66f5;
+}
+terminal.bright-red {
+  color: #d20f39;
+}
+terminal.bright-green {
+  color: #40a02b;
+}
+terminal.bright-yellow {
+  color: #df8e1d;
+}
+terminal.bright-magenta {
+  color: #ea76cb;
+}
+terminal.bright-cyan {
+  color: #179299;
+}
