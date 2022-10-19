@@ -84,8 +84,8 @@ meta.document {
 }
 
 meta.document.button {
-  background: linear-gradient(hsla(10, 56%, 91%, 1), hsla(0, 59%, 88%, 1));
-  border: linear-gradient(hsla(0, 59%, 88%, 1), hsla(10, 56%, 91%, 1));
+  background: linear-gradient(hsla(234, 13%, 31%, 1), hsla(237, 16%, 23%, 1));
+  border: linear-gradient(hsla(234, 13%, 31%, 1), hsla(237, 16%, 23%, 1));
 }
 meta.document.button.disabled {
   background: linear-gradient(hsla(228, 17%, 64%, 1), hsla(228, 17%, 64%, 1));

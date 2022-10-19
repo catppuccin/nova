@@ -26,3 +26,7 @@ Initial release
 ## Version 1.3
 
 - Fixes input border colors
+
+## Version 1.4
+
+- Fixes document button colors in all theme variants
