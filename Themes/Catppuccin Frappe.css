@@ -108,7 +108,7 @@ meta.text {
   color: hsl(227, 70%, 87%);
 }
 meta.text.invisible {
-  color: hsl(228, 22%, 66%);
+  color: hsl(227, 15%, 37%);
 }
 meta.text.selected {
 }
@@ -136,7 +136,7 @@ meta.gutter.selected {
  * Syntax styles
  */
 comment {
-  color: hsl(227, 15%, 37%);
+  color: hsl(228, 22%, 66%);
 }
 processing {
   color: hsl(228, 22%, 66%);
