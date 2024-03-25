@@ -49,12 +49,12 @@ meta.titlebar.inactive {
 
 meta.button {
   background: linear-gradient(hsl(223, 16%, 83%), hsl(225, 14%, 77%));
-  border: linear-gradient(hsl(223, 16%, 83%), hsl(225, 14%, 77%);
+  border: linear-gradient(hsl(223, 16%, 83%), hsl(225, 14%, 77%));
   color: hsl(234, 16%, 35%);
 }
 meta.button.highlighted {
   background: linear-gradient(hsl(227, 12%, 71%), hsl(225, 14%, 77%));
-  border: linear-gradient(hsl(227, 12%, 71%), hsl(223, 16%, 83%);
+  border: linear-gradient(hsl(227, 12%, 71%), hsl(223, 16%, 83%));
   color: hsl(223, 16%, 83%);
 }
 meta.button.selected {
@@ -85,7 +85,7 @@ meta.document {
 
 meta.document.button {
   background: linear-gradient(hsl(223, 16%, 83%), hsl(225, 14%, 77%));
-  border: linear-gradient(hsl(223, 16%, 83%), hsl(225, 14%, 77%);
+  border: linear-gradient(hsl(223, 16%, 83%), hsl(225, 14%, 77%));
 }
 meta.document.button.disabled {
   background: linear-gradient(hsl(232, 10%, 53%), hsl(232, 10%, 53%));
