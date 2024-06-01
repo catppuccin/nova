@@ -6,12 +6,12 @@
   --mauve: hsl(267, 83%, 80%);
   --red: hsl(351, 74%, 73%);
   --maroon: hsl(355, 71%, 77%);
-  --peach: hsl(21, 86%, 73%);
+  --peach: hsl(21, 85%, 73%);
   --yellow: hsl(40, 70%, 78%);
   --green: hsl(105, 48%, 72%);
   --teal: hsl(171, 47%, 69%);
-  --sky: hsl(189, 59%, 73%);
-  --sapphire: hsl(199, 66%, 69%);
+  --sky: hsl(189, 60%, 73%);
+  --sapphire: hsl(199, 65%, 69%);
   --blue: hsl(220, 83%, 75%);
   --lavender: hsl(234, 82%, 85%);
   --text: hsl(227, 68%, 88%);
@@ -20,10 +20,10 @@
   --overlay2: hsl(228, 20%, 65%);
   --overlay1: hsl(228, 15%, 57%);
   --overlay0: hsl(230, 12%, 49%);
-  --surface2: hsl(230, 14%, 41%);
+  --surface2: hsl(230, 14%, 42%);
   --surface1: hsl(231, 16%, 34%);
   --surface0: hsl(230, 19%, 26%);
-  --base: hsl(232, 23%, 18%);
+  --base: hsl(232, 24%, 18%);
   --mantle: hsl(233, 23%, 15%);
   --crust: hsl(236, 23%, 12%);
 }
@@ -37,7 +37,7 @@ meta {
  * Window styles
  */
 meta.window {
-  background-color: hsl(232, 23%, 18%);
+  background-color: hsl(232, 24%, 18%);
   border-color: hsl(230, 19%, 26%);
 }
 meta.titlebar {
@@ -53,8 +53,8 @@ meta.button {
   color: hsl(10, 58%, 90%);
 }
 meta.button.highlighted {
-  background: linear-gradient(hsl(230, 14%, 41%), hsl(231, 16%, 34%));
-  border: linear-gradient(hsl(230, 14%, 41%), hsl(231, 16%, 34%));
+  background: linear-gradient(hsl(230, 14%, 42%), hsl(231, 16%, 34%));
+  border: linear-gradient(hsl(230, 14%, 42%), hsl(231, 16%, 34%));
   color: hsl(355, 71%, 77%);
 }
 meta.button.selected {
@@ -79,7 +79,7 @@ meta.textfield.highlighted {
  * Document styles
  */
 meta.document {
-  background-color: hsl(232, 23%, 18%);
+  background-color: hsl(232, 24%, 18%);
   border-color: hsl(228, 20%, 65%);
 }
 
@@ -91,7 +91,7 @@ meta.document.button.disabled {
   background: linear-gradient(hsl(228, 20%, 65%), hsl(228, 20%, 65%));
 }
 meta.document.button.highlighted {
-  background: linear-gradient(hsl(21, 86%, 73%), hsl(355, 71%, 77%));
+  background: linear-gradient(hsl(21, 85%, 73%), hsl(355, 71%, 77%));
 }
 
 meta.document.textfield {
@@ -148,10 +148,10 @@ bracket {
   color: hsl(105, 48%, 72%);
 }
 operator {
-  color: hsl(199, 66%, 69%);
+  color: hsl(199, 65%, 69%);
 }
 invalid {
-  background-color: hsl(21, 86%, 73%);
+  background-color: hsl(21, 85%, 73%);
   color: hsl(230, 19%, 26%);
 }
 link {
@@ -179,7 +179,7 @@ keyword.self {
   color: hsl(220, 83%, 75%);
 }
 keyword.self.prefix {
-  color: hsl(189, 59%, 73%);
+  color: hsl(189, 60%, 73%);
 }
 
 /* Values */
@@ -201,7 +201,7 @@ value.symbol {
 
 /* Identifiers */
 identifier.type {
-  color: hsl(21, 86%, 73%);
+  color: hsl(21, 85%, 73%);
 }
 identifier.constant,
 identifier.global,
@@ -211,7 +211,7 @@ identifier.variable {
 identifier.constant.prefix,
 identifier.global.prefix,
 identifier.variable.prefix {
-  color: hsl(199, 66%, 69%);
+  color: hsl(199, 65%, 69%);
 }
 identifier.property {
   color: hsl(10, 58%, 90%);
@@ -222,7 +222,7 @@ identifier.property.prefix {
 identifier.decorator,
 identifier.function,
 identifier.method {
-  color: hsl(189, 59%, 73%);
+  color: hsl(189, 60%, 73%);
 }
 identifier.key {
   color: hsl(234, 82%, 85%);
@@ -265,13 +265,13 @@ cdata {
 
 /* Markup */
 markup.heading {
-  color: hsl(21, 86%, 73%);
+  color: hsl(21, 85%, 73%);
 }
 markup.line {
   color: hsl(234, 82%, 85%);
 }
 markup.bold {
-  color: hsl(199, 66%, 69%);
+  color: hsl(199, 65%, 69%);
   font-weight: bold;
 }
 markup.italic {
@@ -282,7 +282,7 @@ markup.strikethrough {
   color: hsl(228, 20%, 65%);
 }
 markup.list.item {
-  color: hsl(21, 86%, 73%);
+  color: hsl(21, 85%, 73%);
 }
 markup.code {
   background-color: hsl(233, 23%, 15%);
@@ -315,7 +315,7 @@ tag {
   color: hsl(171, 47%, 69%);
 }
 tag.name {
-  color: hsl(189, 59%, 73%);
+  color: hsl(189, 60%, 73%);
 }
 tag.framework {
   color: hsl(267, 83%, 80%);
@@ -330,7 +330,7 @@ tag.framework.attribute.name {
   color: hsl(316, 74%, 85%);
 }
 tag.attribute.value {
-  color: hsl(0, 58%, 86%);
+  color: hsl(0, 59%, 84%);
 }
 tag.attribute.value.delimiter {
   color: hsl(355, 71%, 77%);
@@ -378,7 +378,7 @@ style.value.color.named {
   color: hsl(220, 83%, 75%);
 }
 style.value.identifier.function {
-  color: hsl(189, 59%, 73%);
+  color: hsl(189, 60%, 73%);
 }
 
 terminal.black {
@@ -403,7 +403,7 @@ terminal.cyan {
   color: #8bd5ca;
 }
 terminal.white {
-  color: #b8c0e0;
+  color: #a5adcb;
 }
 terminal.bright-black {
   color: #5b6078;

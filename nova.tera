@@ -1,0 +1,415 @@
+---
+whiskers:
+  version: "2.3.0"
+  matrix:
+    - flavor
+  filename: "Themes/Catppuccin {{ flavor.identifier | capitalize }}.css"
+---
+/* {{ flavor.name }} */
+:root {
+{%- for _, color in flavor.colors %}
+  --{{ color.identifier }}: {{ color | css_hsl }};
+{%- endfor %}
+}
+
+meta {
+  -theme-interface-style: dark;
+  -theme-accent-color: hsl(0, 59%, 88%);
+}
+
+/*
+ * Window styles
+ */
+meta.window {
+  background-color: {{ base | css_hsl }};
+  border-color: {{ surface0 | css_hsl }};
+}
+meta.titlebar {
+  color: {{ subtext0 | css_hsl }};
+  border-color: {{ surface0 | css_hsl }};
+}
+meta.titlebar.inactive {
+}
+
+meta.button {
+  background: linear-gradient({{ surface1 | css_hsl }}, {{ surface0 | css_hsl }});
+  border: linear-gradient({{ surface1 | css_hsl }}, {{ surface0 | css_hsl }});
+  color: {{ rosewater | css_hsl }};
+}
+meta.button.highlighted {
+  background: linear-gradient({{ surface2 | css_hsl }}, {{ surface1 | css_hsl }});
+  border: linear-gradient({{ surface2 | css_hsl }}, {{ surface1 | css_hsl }});
+  color: {{ maroon | css_hsl }};
+}
+meta.button.selected {
+  color: {{ maroon | css_hsl }};
+}
+meta.button.highlighted.selected {
+  color: {{ mantle | css_hsl }};
+}
+meta.button.disabled {
+}
+
+meta.textfield {
+  background-color: {{ mantle | css_hsl }};
+  border-color: {{ surface0 | css_hsl }};
+}
+meta.textfield.highlighted {
+  background-color: {{ mantle | css_hsl }};
+  border-color: {{ surface1 | css_hsl }};
+}
+
+/*
+ * Document styles
+ */
+meta.document {
+  background-color: {{ base | css_hsl }};
+  border-color: {{ overlay2 | css_hsl }};
+}
+
+meta.document.button {
+  background: linear-gradient({{ surface1 | css_hsl }}, {{ surface0 | css_hsl }});
+  border: linear-gradient({{ surface1 | css_hsl }}, {{ surface0 | css_hsl }});
+}
+meta.document.button.disabled {
+  background: linear-gradient({{ overlay2 | css_hsl }}, {{ overlay2 | css_hsl }});
+}
+meta.document.button.highlighted {
+  background: linear-gradient({{ peach | css_hsl }}, {{ maroon | css_hsl }});
+}
+
+meta.document.textfield {
+  background-color: {{ mantle | css_hsl }};
+  border-color: {{ surface0 | css_hsl }};
+}
+meta.document.textfield.highlighted {
+  background-color: {{ mantle | css_hsl }};
+  border-color: {{ surface1 | css_hsl }};
+}
+
+/* Text */
+meta.text {
+  color: {{ text | css_hsl }};
+}
+meta.text.invisible {
+  color: {{ surface1 | css_hsl }};
+}
+meta.text.selected {
+}
+
+/* Cursor */
+meta.cursor {
+  background-color: {{ mantle | css_hsl }};
+}
+
+/* Indentation Guides */
+meta.indentguide {
+  border-color: {{ overlay2 | css_hsl }};
+}
+
+/* Gutter */
+meta.gutter {
+  color: {{ overlay2 | css_hsl }};
+}
+meta.gutter.selected {
+  background-color: {{ surface1 | css_hsl }};
+  color: {{ text | css_hsl }};
+}
+
+/*
+ * Syntax styles
+ */
+comment {
+  color: {{ overlay2 | css_hsl }};
+}
+processing {
+  color: {{ overlay2 | css_hsl }};
+}
+declaration {
+  color: {{ teal | css_hsl }};
+}
+bracket {
+  color: {{ green | css_hsl }};
+}
+operator {
+  color: {{ sapphire | css_hsl }};
+}
+invalid {
+  background-color: {{ peach | css_hsl }};
+  color: {{ surface0 | css_hsl }};
+}
+link {
+  color: {{ blue | css_hsl }};
+}
+
+/* Keywords */
+keyword {
+  color: {{ red | css_hsl }};
+}
+keyword.modifier {
+  font-style: italic;
+  color: {{ teal | css_hsl }};
+}
+keyword.condition {
+  color: {{ blue | css_hsl }};
+}
+keyword.construct {
+  color: {{ blue | css_hsl }};
+}
+keyword.statement {
+  color: {{ blue | css_hsl }};
+}
+keyword.self {
+  color: {{ blue | css_hsl }};
+}
+keyword.self.prefix {
+  color: {{ sky | css_hsl }};
+}
+
+/* Values */
+value.boolean {
+  color: {{ blue | css_hsl }};
+}
+value.null {
+  color: {{ blue | css_hsl }};
+}
+value.number {
+  color: {{ rosewater | css_hsl }};
+}
+value.entity {
+  color: {{ blue | css_hsl }};
+}
+value.symbol {
+  color: {{ blue | css_hsl }};
+}
+
+/* Identifiers */
+identifier.type {
+  color: {{ peach | css_hsl }};
+}
+identifier.constant,
+identifier.global,
+identifier.variable {
+  color: {{ lavender | css_hsl }};
+}
+identifier.constant.prefix,
+identifier.global.prefix,
+identifier.variable.prefix {
+  color: {{ sapphire | css_hsl }};
+}
+identifier.property {
+  color: {{ rosewater | css_hsl }};
+}
+identifier.property.prefix {
+  color: {{ surface0 | css_hsl }};
+}
+identifier.decorator,
+identifier.function,
+identifier.method {
+  color: {{ sky | css_hsl }};
+}
+identifier.key {
+  color: {{ lavender | css_hsl }};
+}
+identifier.argument {
+  color: {{ lavender | css_hsl }};
+}
+identifier.argument.prefix {
+  color: {{ surface0 | css_hsl }};
+}
+
+/* Strings */
+string {
+  color: {{ green | css_hsl }};
+}
+string.delimiter {
+  color: {{ red | css_hsl }};
+}
+string.escape {
+  color: {{ rosewater | css_hsl }};
+}
+string.key {
+  color: {{ lavender | css_hsl }};
+}
+string-keyword {
+  color: {{ surface0 | css_hsl }};
+}
+string-template {
+  color: {{ yellow | css_hsl }};
+}
+regex {
+  color: {{ yellow | css_hsl }};
+}
+regex.escape {
+  color: {{ yellow | css_hsl }};
+}
+cdata {
+  color: {{ blue | css_hsl }};
+}
+
+/* Markup */
+markup.heading {
+  color: {{ peach | css_hsl }};
+}
+markup.line {
+  color: {{ lavender | css_hsl }};
+}
+markup.bold {
+  color: {{ sapphire | css_hsl }};
+  font-weight: bold;
+}
+markup.italic {
+  color: {{ lavender | css_hsl }};
+  font-style: italic;
+}
+markup.strikethrough {
+  color: {{ overlay2 | css_hsl }};
+}
+markup.list.item {
+  color: {{ peach | css_hsl }};
+}
+markup.code {
+  background-color: {{ mantle | css_hsl }};
+}
+markup.link {
+  color: {{ blue | css_hsl }};
+}
+
+/* Types */
+definition.class.name,
+definition.type.name,
+definition.package.name,
+definition.enum.name,
+definition.union.name,
+definition.struct.name {
+  color: {{ teal | css_hsl }};
+}
+
+/* Members */
+definition.property.name {
+  color: {{ teal | css_hsl }};
+}
+definition.function.name,
+definition.method.name {
+  color: {{ teal | css_hsl }};
+}
+
+/* Tags */
+tag {
+  color: {{ teal | css_hsl }};
+}
+tag.name {
+  color: {{ sky | css_hsl }};
+}
+tag.framework {
+  color: {{ mauve | css_hsl }};
+}
+tag.framework.name {
+  color: {{ mauve | css_hsl }};
+}
+tag.attribute.name {
+  color: {{ lavender | css_hsl }};
+}
+tag.framework.attribute.name {
+  color: {{ pink | css_hsl }};
+}
+tag.attribute.value {
+  color: hsl(0, 59%, 84%);
+}
+tag.attribute.value.delimiter {
+  color: {{ maroon | css_hsl }};
+}
+tag.attribute.operator {
+  color: {{ overlay1 | css_hsl }};
+}
+tag.attribute.value.link {
+  color: {{ blue | css_hsl }};
+}
+
+/* Styles */
+style.at {
+  color: {{ yellow | css_hsl }};
+  font-weight: bold;
+}
+style.selector.element {
+  font-weight: bold;
+}
+style.selector.identifier.id {
+  color: {{ yellow | css_hsl }};
+}
+style.selector.identifier.class {
+  color: {{ lavender | css_hsl }};
+}
+style.selector.pseudoclass {
+  color: {{ lavender | css_hsl }};
+}
+style.selector.pseudoelement {
+  color: {{ yellow | css_hsl }};
+}
+style.attribute.name {
+  color: {{ teal | css_hsl }};
+}
+style.value.number {
+  color: {{ rosewater | css_hsl }};
+}
+style.value.color.hex {
+  color: {{ pink | css_hsl }};
+}
+style.value.keyword {
+  color: {{ blue | css_hsl }};
+}
+style.value.color.named {
+  color: {{ blue | css_hsl }};
+}
+style.value.identifier.function {
+  color: {{ sky | css_hsl }};
+}
+
+terminal.black {
+  color: #{{ surface1.hex }};
+}
+terminal.blue {
+  color: #{{ blue.hex }};
+}
+terminal.red {
+  color: #{{ red.hex }};
+}
+terminal.green {
+  color: #{{ green.hex }};
+}
+terminal.yellow {
+  color: #{{ yellow.hex }};
+}
+terminal.magenta {
+  color: #{{ pink.hex }};
+}
+terminal.cyan {
+  color: #{{ teal.hex }};
+}
+terminal.white {
+  color: #{{ subtext0.hex }};
+}
+terminal.bright-black {
+  color: #{{ surface2.hex }};
+}
+terminal.bright-white {
+  color: #{{ subtext0.hex }};
+}
+terminal.bright-blue {
+  color: #{{ blue.hex }};
+}
+terminal.bright-red {
+  color: #{{ red.hex }};
+}
+terminal.bright-green {
+  color: #{{ green.hex }};
+}
+terminal.bright-yellow {
+  color: #{{ yellow.hex }};
+}
+terminal.bright-magenta {
+  color: #{{ pink.hex }};
+}
+terminal.bright-cyan {
+  color: #{{ teal.hex }};
+}
