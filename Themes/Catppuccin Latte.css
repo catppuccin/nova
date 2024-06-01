@@ -10,12 +10,12 @@
   --yellow: hsl(35, 77%, 49%);
   --green: hsl(109, 58%, 40%);
   --teal: hsl(183, 74%, 35%);
-  --sky: hsl(197, 97%, 46%);
+  --sky: hsl(197, 96%, 46%);
   --sapphire: hsl(189, 70%, 42%);
   --blue: hsl(220, 91%, 54%);
   --lavender: hsl(231, 97%, 72%);
-  --text: hsl(234, 16%, 35%);
-  --subtext1: hsl(233, 13%, 41%);
+  --text: hsl(234, 16%, 36%);
+  --subtext1: hsl(233, 13%, 42%);
   --subtext0: hsl(233, 10%, 47%);
   --overlay2: hsl(232, 10%, 53%);
   --overlay1: hsl(231, 10%, 59%);
@@ -29,7 +29,7 @@
 }
 
 meta {
-  -theme-interface-style: light;
+  -theme-interface-style: dark;
   -theme-accent-color: hsl(0, 59%, 88%);
 }
 
@@ -48,14 +48,14 @@ meta.titlebar.inactive {
 }
 
 meta.button {
-  background: linear-gradient(hsl(223, 16%, 83%), hsl(225, 14%, 77%));
-  border: linear-gradient(hsl(223, 16%, 83%), hsl(225, 14%, 77%));
-  color: hsl(234, 16%, 35%);
+  background: linear-gradient(hsl(225, 14%, 77%), hsl(223, 16%, 83%));
+  border: linear-gradient(hsl(225, 14%, 77%), hsl(223, 16%, 83%));
+  color: hsl(11, 59%, 67%);
 }
 meta.button.highlighted {
   background: linear-gradient(hsl(227, 12%, 71%), hsl(225, 14%, 77%));
-  border: linear-gradient(hsl(227, 12%, 71%), hsl(223, 16%, 83%));
-  color: hsl(223, 16%, 83%);
+  border: linear-gradient(hsl(227, 12%, 71%), hsl(225, 14%, 77%));
+  color: hsl(355, 76%, 59%);
 }
 meta.button.selected {
   color: hsl(355, 76%, 59%);
@@ -84,8 +84,8 @@ meta.document {
 }
 
 meta.document.button {
-  background: linear-gradient(hsl(223, 16%, 83%), hsl(225, 14%, 77%));
-  border: linear-gradient(hsl(223, 16%, 83%), hsl(225, 14%, 77%));
+  background: linear-gradient(hsl(225, 14%, 77%), hsl(223, 16%, 83%));
+  border: linear-gradient(hsl(225, 14%, 77%), hsl(223, 16%, 83%));
 }
 meta.document.button.disabled {
   background: linear-gradient(hsl(232, 10%, 53%), hsl(232, 10%, 53%));
@@ -105,7 +105,7 @@ meta.document.textfield.highlighted {
 
 /* Text */
 meta.text {
-  color: hsl(234, 16%, 35%);
+  color: hsl(234, 16%, 36%);
 }
 meta.text.invisible {
   color: hsl(225, 14%, 77%);
@@ -129,7 +129,7 @@ meta.gutter {
 }
 meta.gutter.selected {
   background-color: hsl(225, 14%, 77%);
-  color: hsl(223, 16%, 83%);
+  color: hsl(234, 16%, 36%);
 }
 
 /*
@@ -179,7 +179,7 @@ keyword.self {
   color: hsl(220, 91%, 54%);
 }
 keyword.self.prefix {
-  color: hsl(197, 97%, 46%);
+  color: hsl(197, 96%, 46%);
 }
 
 /* Values */
@@ -222,7 +222,7 @@ identifier.property.prefix {
 identifier.decorator,
 identifier.function,
 identifier.method {
-  color: hsl(197, 97%, 46%);
+  color: hsl(197, 96%, 46%);
 }
 identifier.key {
   color: hsl(231, 97%, 72%);
@@ -315,7 +315,7 @@ tag {
   color: hsl(183, 74%, 35%);
 }
 tag.name {
-  color: hsl(197, 97%, 46%);
+  color: hsl(197, 96%, 46%);
 }
 tag.framework {
   color: hsl(266, 85%, 58%);
@@ -330,7 +330,7 @@ tag.framework.attribute.name {
   color: hsl(316, 73%, 69%);
 }
 tag.attribute.value {
-  color: hsl(0, 60%, 67%);
+  color: hsl(0, 59%, 84%);
 }
 tag.attribute.value.delimiter {
   color: hsl(355, 76%, 59%);
@@ -378,11 +378,11 @@ style.value.color.named {
   color: hsl(220, 91%, 54%);
 }
 style.value.identifier.function {
-  color: hsl(197, 97%, 46%);
+  color: hsl(197, 96%, 46%);
 }
 
 terminal.black {
-  color: #5c5f77;
+  color: #bcc0cc;
 }
 terminal.blue {
   color: #1e66f5;
@@ -403,13 +403,13 @@ terminal.cyan {
   color: #179299;
 }
 terminal.white {
-  color: #acb0be;
-}
-terminal.bright-black {
   color: #6c6f85;
 }
+terminal.bright-black {
+  color: #acb0be;
+}
 terminal.bright-white {
-  color: #bcc0cc;
+  color: #6c6f85;
 }
 terminal.bright-blue {
   color: #1e66f5;

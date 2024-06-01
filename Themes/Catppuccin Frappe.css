@@ -1,7 +1,7 @@
-/* Frappe */
+/* Frappé */
 :root {
   --rosewater: hsl(10, 57%, 88%);
-  --flamingo: hsl(0, 59%, 84%);
+  --flamingo: hsl(0, 58%, 84%);
   --pink: hsl(316, 73%, 84%);
   --mauve: hsl(277, 59%, 76%);
   --red: hsl(359, 68%, 71%);
@@ -382,50 +382,50 @@ style.value.identifier.function {
 }
 
 terminal.black {
-  color: #45475a;
+  color: #51576d;
 }
 terminal.blue {
-  color: #89b4fa;
+  color: #8caaee;
 }
 terminal.red {
-  color: #f38ba8;
+  color: #e78284;
 }
 terminal.green {
-  color: #a6e3a1;
+  color: #a6d189;
 }
 terminal.yellow {
-  color: #f9e2af;
+  color: #e5c890;
 }
 terminal.magenta {
-  color: #f5c2e7;
+  color: #f4b8e4;
 }
 terminal.cyan {
-  color: #94e2d5;
+  color: #81c8be;
 }
 terminal.white {
-  color: #bac2de;
+  color: #a5adce;
 }
 terminal.bright-black {
-  color: #585b70;
+  color: #626880;
 }
 terminal.bright-white {
-  color: #a6adc8;
+  color: #a5adce;
 }
 terminal.bright-blue {
-  color: #89b4fa;
+  color: #8caaee;
 }
 terminal.bright-red {
-  color: #f38ba8;
+  color: #e78284;
 }
 terminal.bright-green {
-  color: #a6e3a1;
+  color: #a6d189;
 }
 terminal.bright-yellow {
-  color: #f9e2af;
+  color: #e5c890;
 }
 terminal.bright-magenta {
-  color: #f5c2e7;
+  color: #f4b8e4;
 }
 terminal.bright-cyan {
-  color: #94e2d5;
+  color: #81c8be;
 }
